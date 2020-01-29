@@ -64,8 +64,8 @@ def play(songs)
    user_input = gets.strip
     if user_input == "exit"
       exit_jukebox
- #  elsif user_input =="help"
- #   help
+   elsif user_input =="help"
+    help
   elsif user_input == "list"
   list 
   elsif user_input =="play"
